@@ -1,0 +1,15 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{title}}!
+  </h1>
+
+  <button (click)="listar()">Processar</button>
+  <hr>
+  <div style="text-align:left" *ngFor="let task of tasks">
+    Identificação: {{task.id}}
+    Descrição: {{task.nome}}
+    <span [appWspan]="task">Tempo: {{task.time}}</span>
+  </div>
+
+</div>
