@@ -1,4 +1,7 @@
 <!--The content below is only a placeholder and can be replaced.-->
+
+<app-custom></app-custom>
+
 <div style="text-align:center">
   <h1>
     Welcome to {{title}}!
@@ -13,3 +16,6 @@
   </div>
 
 </div>
+<br>
+<app-switch [(ngModel)]="value" [label]="'My Switch'"></app-switch><br />
+<span>valor: {{value}}</span>

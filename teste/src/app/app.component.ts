@@ -10,6 +10,8 @@ export class AppComponent {
   title = 'app';
   tasks: Task[];
 
+  value = false;
+
   constructor() {
   }
 
