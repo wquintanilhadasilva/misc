@@ -12,6 +12,8 @@ export class AppComponent {
 
   value = false;
 
+  inputWed = 'inicial';
+
   constructor() {
   }
 

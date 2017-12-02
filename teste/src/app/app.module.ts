@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { WspanDirective } from './wspan.directive';
 import { CustomComponent } from './custom/custom.component';
 import { SwitchComponent } from './switch/switch.component';
+import { MyInputComponent } from './my-input/my-input.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WspanDirective,
     CustomComponent,
-    SwitchComponent
+    SwitchComponent,
+    MyInputComponent
   ],
   imports: [
     BrowserModule,
