@@ -27,8 +27,10 @@
     "core-js": "^2.4.1",
     "firebase": "^4.4.0",
     "jquery": "^3.2.1",
+    "ngx-order-pipe": "^2.0.1",
     "popper.js": "^1.12.5",
     "rxjs": "^5.4.2",
+    "w-ng5": "^1.0.2",
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
